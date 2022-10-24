@@ -19,7 +19,8 @@ function QuoteBox(){
         <div className='phrase'><Quote quotesItem = {getQuotes}/></div>
         <div className='author'><Author authorsItem = {getAuthor}/></div>
         <div className='btn'>
-            <button onClick={nextQuote} style = {{background: getColorRandom}}><img src="./imagenes/2027886.svg" alt="" /></button>
+            
+            <img src="./imagenes/2027886.svg" alt="" onClick={nextQuote} style = {{background: getColorRandom}} />
         </div>
       </div>
     );

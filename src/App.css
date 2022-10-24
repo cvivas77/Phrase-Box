@@ -43,19 +43,16 @@
 }
 
 .Content .btn img{
-  height: 90px;
-  width: 125px;
- 
+  height: 97px;
+  width: 134px;
+  border-radius: 30%;
+  cursor: pointer;
 }
 
 .Content .btn{
   align-self: end;
   position: absolute;
   top: 75%;
-  right: 5%;
+  right: 6%;
 }
 
-.Content .btn button{
-  border-radius: 30%;
-  
-}
