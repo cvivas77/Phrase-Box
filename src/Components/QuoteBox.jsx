@@ -20,7 +20,7 @@ function QuoteBox(){
         <div className='author'><Author authorsItem = {getAuthor}/></div>
         <div className='btn'>
             
-            <img src="./imagenes/2027886.svg" alt="" onClick={nextQuote} style = {{background: getColorRandom}} />
+            <img src="https://svgsilh.com/svg/2027886.svg" alt="" onClick={nextQuote} style = {{background: getColorRandom}} />
         </div>
       </div>
     );
